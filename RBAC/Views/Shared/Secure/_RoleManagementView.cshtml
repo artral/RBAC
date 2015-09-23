@@ -1,0 +1,91 @@
+﻿@using RBAC.Models;
+@model RolemanagementViewModel
+@{
+    var name = "test";
+    var roless = Model.GetRoles();
+
+};
+
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Retry Count
+                </label>
+            </div>
+        </div><!-- /.col-lg-6 -->
+        <div class="col-md-3">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Retry Count
+                </label>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="dropdown">
+                @Html.DropDownList(name, @roless, new { @class = "form-control" })
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Retry Count
+                </label>
+            </div>
+        </div><!-- /.col-lg-6 -->
+
+        <div class="col-md-offset-6">
+            <div class="dropdown">
+                @Html.DropDownList(name, @roless, new { @class = "form-control" })
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Retry Count
+                </label>
+            </div>
+        </div><!-- /.col-lg-6 -->
+
+        <div class="col-md-offset-6">
+            <div class="dropdown">
+                @Html.DropDownList(name, @roless, new { @class = "form-control" })
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Date Change
+                </label>
+            </div>
+        </div><!-- /.col-lg-6 -->
+        <div class="col-md-3">
+            <div class="checkbox">
+                <label id="Datchange">
+                    <input type="date">
+                </label>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label class="form-group-sm form-control-static">Select a Reason</label>
+            </div>
+
+        </div>
+        <div class="col-md-3">
+            <div class="dropdown">
+                @Html.DropDownList(name, @roless, new { @class = "form-control" })
+            </div>
+        </div>
+    </div>
+
+</div>

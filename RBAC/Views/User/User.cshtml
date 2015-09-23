@@ -1,0 +1,10 @@
+﻿@using RBAC.Models;
+@model Users
+@{
+    ViewBag.Title = "User";
+    var myroles = Model.MyRoles;
+}
+
+<h2>User</h2>
+
+@Html.Partial("Secure/_RoleManagementView", Model.MyRoles)
