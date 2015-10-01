@@ -149,12 +149,16 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Attributes\RBACAttribute.cs" />
+    <Compile Include="Enum\PriorityType.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="EFModels\Permission.cs" />
+    <Compile Include="Models\DailyTrend.cs" />
+    <Compile Include="Models\IssueTrendViewModel.cs" />
     <Compile Include="Models\RolemanagementViewModel.cs" />
     <Compile Include="Models\Users.cs" />
+    <Compile Include="MVC\MyViewEngine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="EFModels\RBAC.cs" />
     <Compile Include="EFModels\Role.cs" />
@@ -167,6 +171,9 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Views\Shared\Secure\_RoleManagementView.cshtml" />
+    <Content Include="Views\DashBoard\_IssueTrend.cshtml" />
+    <Content Include="Views\DashBoard\_DailyTrend.cshtml" />
+    <Content Include="Views\DashBoard\Master.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -178,7 +185,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Views\Administration\" />
     <Folder Include="Views\Admin\" />
-    <Folder Include="Views\DashBoard\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

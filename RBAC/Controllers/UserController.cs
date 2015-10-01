@@ -13,7 +13,18 @@ namespace RBAC.Views.Administration
         public ActionResult Index()
         {
             var oUser = new Users();
-            return View("User", oUser);
+            // return View("User", oUser);
+            return View("Master");
+        }
+        public ActionResult Trend()
+        {
+            var varTrend = new IssueTrendViewModel();
+            return View("_IssueTrend", varTrend);
+        }
+        public ActionResult Daily()
+        {
+            var varTrend = new DailyTrend();
+            return View("_DailyTrend", varTrend);
         }
     }
 }

@@ -1,0 +1,14 @@
+﻿@using RBAC.Models;
+@model  IssueTrendViewModel
+@{
+    Layout = null;
+}
+
+<div class="row">
+    <div class="col-md-8">
+        @Html.TextBoxFor(m => m.TicketName)
+        @Html.TextBoxFor(m => m.ResolvedDateTime)
+        @Html.TextBoxFor(m => m.CreationDate)
+    </div>
+
+</div>
