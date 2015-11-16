@@ -33,3 +33,4 @@ C:\Projects\RBAC\RBAC\RBAC\bin\System.Web.Helpers.xml
 C:\Projects\RBAC\RBAC\RBAC\bin\System.Web.Mvc.xml
 C:\Projects\RBAC\RBAC\RBAC\obj\x64\Debug\RBAC.dll
 C:\Projects\RBAC\RBAC\RBAC\obj\x64\Debug\RBAC.pdb
+C:\Projects\RBAC\RBAC\RBAC\obj\x64\Debug\RBAC.csprojResolveAssemblyReference.cache

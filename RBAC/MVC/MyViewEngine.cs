@@ -12,17 +12,13 @@ namespace RBAC.MVC
         {
             ViewLocationFormats = new[]
             {
-        "~/Views/DashBoard/{0}.cshtml",
-        "~/Views/Administration/{0}.cshtml",
-        "~/Views/Shared/{0}.vbhtml"
-        };
+                "~/Views/DashBoard/{0}.cshtml","~/Views/Administration/{0}.cshtml",  "~/Views/Shared/{0}.vbhtml"
+            };
 
-            PartialViewLocationFormats =  new[]
+            PartialViewLocationFormats = new[]
             {
-        "~/Views/DashBoard/{0}.cshtml",
-        "~/Views/Administration/{0}.cshtml",
-        "~/Views/Shared/{0}.vbhtml"
-        };
+                "~/Views/DashBoard/{0}.cshtml","~/Views/Administration/{0}.cshtml", "~/Views/Shared/{0}.vbhtml"
+            };
 
         }
 

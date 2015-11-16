@@ -4,11 +4,16 @@
     Layout = null;
 }
 
-<div class="row">
-    <div class="col-md-8">
-        @Html.TextBoxFor(m => m.TicketName)
-        @Html.TextBoxFor(m => m.ResolvedDateTime)
-        @Html.TextBoxFor(m => m.CreationDate)
-    </div>
+<form>
+    <div class="row">
+        <div class="col-md-8">
+            @Html.TextBoxFor(m => m.TicketName)
+            @Html.TextBoxFor(m => m.ResolvedDateTime)
+            @Html.TextBoxFor(m => m.CreationDate)
+        </div>
+        <button type="submit" data-Name="Hello" class="btn btn-primary">Submit</button>
 
-</div>
+
+
+    </div>
+</form>

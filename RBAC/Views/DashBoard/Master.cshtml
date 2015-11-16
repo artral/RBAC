@@ -1,10 +1,27 @@
 ﻿<div class="row">
     <ul class="nav nav-tabs" id="Test123">
-        <li><a href="#Test" data-toggle="tab">Daily</a></li>
+        @*<li><a href="#Test" data-toggle="tab">Daily</a></li>*@
     </ul>
-   <div id="Test">
-        @Html.Partial("_DailyTrend");
+   <div id="Test123">
+        @*@Html.Partial("_DailyTrend");*@
     </div>
 
      
+</div>
+<div class="container">
+    <ul class="nav nav-tabs" id="tabs">
+        <li class="active"><a href="#DashBoard" data-toggle="tab">DashBoard</a></li>
+        <li><a href="#User" data-toggle="tab">User</a></li>
+    </ul>
+    <div class="tab-content">
+
+        <div class="tab-pane active" id="DashBoard">
+            <h2>Repository content</h2>
+            @Html.Partial("_IssueTrend")
+        </div>
+        <div class="tab-pane" id="User">
+            
+        </div>
+    </div>
+    
 </div>
