@@ -1,4 +1,11 @@
-﻿(function($)
-{
+﻿(function ($) {
 
-}(JQUery));
+    _submit = function () {
+        _test();
+
+    };
+
+
+    
+
+}(jQuery));
